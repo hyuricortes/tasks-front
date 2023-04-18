@@ -1,24 +1,22 @@
-# tasks-front
+# Tasks front-end
 
-<img src="https://files.fm/u/ggj5ynja3">
 
 ### Olá 👋
-Segue projeto teste realizado para correção, atenção em detalhes de imagens pode vim repetidas pois no figma somente tinha um exemplo.
+Segue projeto Todo , tasks simples.
 
 ### Tecnologias usadas:
 
-- Nextjs.
-- Style-components.
+- Rectjs.
+- Typescript.
 - ContextApi.
-- API Routes + PrismaDB
-- SQL Lite como banco de dados
+- Axios
 - Eslint
-- Typescript
+- Art Design
 - React icons 
 
 ### Resumo do projeto
 
- - Projeto tem como base duas telas Listar produtos e detalhes do produtos, apesar de ainda sentir falta de alguns desenhos como a tela de detalhes de produto terem mais fotos, o projeto foi feito com sucesso.Caso dúvida ou bug favor relatar que vou corrigir.
+ - Projeto é gerenciamento de tarefas simples que contem listar, criar , alterar e deletar.
 
 
 ### Como rodar
@@ -29,15 +27,9 @@ Segue projeto teste realizado para correção, atenção em detalhes de imagens 
 
 `npm install ou yarn install`
 
-3) Rode esse comando para migração do banco de dados
+3) Rodar o projeto
 
-`npx prisma migrate dev`
-
-4) Agora caso queira ver o banco de dados
- 
-`npx prisma studio`
-
- <img src="https://files.fm/u/ggj5ynja3" />
+`yarn dev ou npm run dev`
 
 
  [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/hyuri-miranda-cortes-69790666/) 
